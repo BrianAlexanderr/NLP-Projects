@@ -22,10 +22,10 @@ The dataset originates from Kaggle's English movie review dataset, which was **t
 
 The following **pre-trained NLP models** were fine-tuned and compared:
 
-- [DistilIndoBERT](https://huggingface.co/indobenchmark/distilbert-base-indonesian)
-- [IndoBERT](https://huggingface.co/indobenchmark/indobert-base-p2)
-- [IndoBERT-Lite](https://huggingface.co/indobenchmark/indobert-lite-base-p2)
-- [mBERT](https://huggingface.co/bert-base-multilingual-cased)
+- DistilIndoBERT
+- IndoBERT
+- IndoBERT-Lite
+- mBERT
 
 ---
 
@@ -50,12 +50,10 @@ The following **pre-trained NLP models** were fine-tuned and compared:
 
 | Model            | Accuracy | F1-score |
 |------------------|----------|----------|
-| DistilIndoBERT   | 00.00%   | 0.00     |
-| IndoBERT         | 00.00%   | 0.00     |
-| IndoBERT-Lite    | 00.00%   | 0.00     |
-| mBERT            | 00.00%   | 0.00     |
-
-*(Fill in with actual experiment results once available)*
+| DistilIndoBERT   | 96.00%   | 0.96     |
+| IndoBERT         | 93.00%   | 0.93     |
+| IndoBERT-Lite    | 96.00%   | 0.96     |
+| mBERT            | 95.00%   | 0.95     |
 
 ---
 
@@ -71,13 +69,14 @@ The following **pre-trained NLP models** were fine-tuned and compared:
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Train a model:
+   note: you might need to see torch documentation incase you wanted to run with your gpu
+   
+4. Train a model:
    ```bash
    python train.py --model distilindobert
    ```
 
-4. Evaluate:
+5. Evaluate:
    ```bash
    python evaluate.py --model distilindobert
    ```
