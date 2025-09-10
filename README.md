@@ -61,8 +61,8 @@ The following **pre-trained NLP models** were fine-tuned and compared:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/BrianAlexanderr/NLP-Projects.git
+   cd NLP-Projects
    ```
 
 2. Install dependencies:
