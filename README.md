@@ -22,10 +22,10 @@ The dataset originates from Kaggle's English movie review dataset, which was **t
 
 The following **pre-trained NLP models** were fine-tuned and compared:
 
-- [DistilIndoBERT](https://huggingface.co/indobenchmark/distilbert-base-indonesian)
-- [IndoBERT](https://huggingface.co/indobenchmark/indobert-base-p2)
-- [IndoBERT-Lite](https://huggingface.co/indobenchmark/indobert-lite-base-p2)
-- [mBERT](https://huggingface.co/bert-base-multilingual-cased)
+- DistilIndoBERT
+- IndoBERT
+- IndoBERT-Lite
+- mBERT
 
 ---
 
